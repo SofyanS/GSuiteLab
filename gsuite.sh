@@ -11,5 +11,4 @@ gsutil mb gs://bucket_$DEVSHELL_PROJECT_ID/
 gsutil cp credentials.json gs://bucket_$DEVSHELL_PROJECT_ID/
 
 # Create two google docs before running this
-npm install
 node .
